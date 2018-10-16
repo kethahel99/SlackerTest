@@ -1,1 +1,1 @@
-# SlackerTest
+[![Build status](https://standardbank.visualstudio.com/Data%20Reservoir/_apis/build/status/Data%20Reservoir-CI)](https://standardbank.visualstudio.com/Data%20Reservoir/_build/latest?definitionId=6)
