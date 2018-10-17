@@ -18,7 +18,7 @@ namespace DatabaseUnittests
         /// <summary>
         /// Runs Slacker spec tests 
         /// </summary>
-        [Theory, MemberData("TestFiles", typeof(SpecTestFile))]
+        [Theory, MemberData(nameof(TestFiles), typeof(SpecTestFile))]
         public void runSpecs(ISpecTestFile File)
         {
             SlackerResults SlackerResults = new SlackerService().Run(RUN_TEST_DIR, SPEC_TEST_DIR + File.FileName);

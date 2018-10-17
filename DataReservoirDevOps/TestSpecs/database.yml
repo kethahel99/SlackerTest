@@ -19,7 +19,7 @@ database: DataReservoirDevOps
 
 # Slacker supports only SQL Server authentication.
 user: unittest
-password: Testing123
+password: P@ssw0rd123
 
 # Set this to false when using alternative formatters such as -fh and fj.
 console_enabled: true
